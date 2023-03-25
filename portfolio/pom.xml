@@ -9,7 +9,7 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.portfolio</groupId>
-    <artifactId>mgb</artifactId>
+    <artifactId>florherber</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>herber.portfolio</name>
     <description>Portfolio web de Florencia Herber</description>
