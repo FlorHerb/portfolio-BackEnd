@@ -21,6 +21,7 @@ portfolio\portfolio\PortfolioApplication.class
 portfolio\portfolio\Security\Entity\Rol.class
 portfolio\portfolio\Controller\CSkill.class
 portfolio\portfolio\Security\Jwt\JwtProvider.class
+portfolio\portfolio\Dto\DtoPersona.class
 portfolio\portfolio\Dto\DtoSkill.class
 portfolio\portfolio\Entity\Skill.class
 portfolio\portfolio\Security\Controller\AuthController.class

@@ -26,7 +26,7 @@ import portfolio.portfolio.Service.SProyecto;
 
 @Controller
 @RequestMapping("/proyecto")
-@CrossOrigin(origins = "http://localhost:4200")
+@CrossOrigin(origins = {"http://localhost:4200","https://florencia-herber-portfolio.web.app/"})
 public class CProyecto {
     
      @Autowired
