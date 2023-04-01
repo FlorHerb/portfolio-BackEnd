@@ -10,16 +10,17 @@ import javax.validation.constraints.NotBlank;
 public class DtoProyecto {
     @NotBlank
     private String nombre;
-    private String año;
+    private String anio;
     private String descripcion;
     private String img;
 
     public DtoProyecto(String nombre, String año, String descripcion, String img) {
         this.nombre = nombre;
-        this.año = año;
+        this.anio = año;
         this.descripcion = descripcion;
         this.img = img;
     }
+    public DtoProyecto(){}
 
     public String getNombre() {
         return nombre;
@@ -29,12 +30,12 @@ public class DtoProyecto {
         this.nombre = nombre;
     }
 
-    public String getAño() {
-        return año;
+    public String getAnio() {
+        return anio;
     }
 
-    public void setAño(String año) {
-        this.año = año;
+    public void setAnio(String anio) {
+        this.anio = anio;
     }
 
     public String getDescripcion() {

@@ -17,16 +17,14 @@ public class DtoEducacion {
     private String descripcionE;
     @NotBlank
     private String img;
-    @Temporal(TemporalType.DATE)
-    private Date fecha_inicio;
-    @Temporal(TemporalType.DATE)
-    private Date fecha_fin;
+    private String fecha_inicio;
+    private String fecha_fin;
     private String institucion;
 
     public DtoEducacion() {
     }
 
-    public DtoEducacion(String nombreE, String descripcionE, String img, Date fecha_inicio, Date fecha_fin, String institucion) {
+    public DtoEducacion(String nombreE, String descripcionE, String img, String fecha_inicio, String fecha_fin, String institucion) {
         this.nombreE = nombreE;
         this.descripcionE = descripcionE;
         this.img = img;
@@ -59,19 +57,19 @@ public class DtoEducacion {
         this.img = img;
     }
 
-    public Date getFecha_inicio() {
+    public String getFecha_inicio() {
         return fecha_inicio;
     }
 
-    public void setFecha_inicio(Date fecha_inicio) {
+    public void setFecha_inicio(String fecha_inicio) {
         this.fecha_inicio = fecha_inicio;
     }
 
-    public Date getFecha_fin() {
+    public String getFecha_fin() {
         return fecha_fin;
     }
 
-    public void setFecha_fin(Date fecha_fin) {
+    public void setFecha_fin(String fecha_fin) {
         this.fecha_fin = fecha_fin;
     }
 

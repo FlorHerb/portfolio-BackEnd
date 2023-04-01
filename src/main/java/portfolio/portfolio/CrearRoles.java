@@ -26,10 +26,11 @@ public class CrearRoles implements CommandLineRunner {
     /*
         Esto sólo se ejecuta 1 vez para crear roles, para que existan cuando se creen los usuarios.
          */ 
-     //  Rol rolAdmin = new Rol(RolNombre.ROLE_ADMIN);
+      // Rol rolAdmin = new Rol(RolNombre.ROLE_ADMIN);
      //  Rol rolUser = new Rol(RolNombre.ROLE_USER);
      //  rolService.save(rolAdmin);
-     //   rolService.save(rolUser);
+     //  rolService.save(rolUser);
+     
        
     }
 }

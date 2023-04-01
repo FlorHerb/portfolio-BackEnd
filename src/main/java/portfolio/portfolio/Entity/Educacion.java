@@ -19,15 +19,15 @@ public class Educacion {
     private String nombreE;
     private String descripcionE;
     private String img;
-    private Date fecha_inicio;
-    private Date fecha_fin;
+    private String fecha_inicio;
+    private String fecha_fin;
     private String institucion;
     
 
     public Educacion() {
     }
 
-    public Educacion(String nombreE, String descripcionE, String img, Date fecha_inicio, Date fecha_fin, String institucion) {
+    public Educacion(String nombreE, String descripcionE, String img, String fecha_inicio, String fecha_fin, String institucion) {
         this.id = id;
         this.nombreE = nombreE;
         this.descripcionE = descripcionE;
@@ -70,19 +70,19 @@ public class Educacion {
         this.img = img;
     }
 
-    public Date getFecha_inicio() {
+    public String getFecha_inicio() {
         return fecha_inicio;
     }
 
-    public void setFecha_inicio(Date fecha_inicio) {
+    public void setFecha_inicio(String fecha_inicio) {
         this.fecha_inicio = fecha_inicio;
     }
 
-    public Date getFecha_fin() {
+    public String getFecha_fin() {
         return fecha_fin;
     }
 
-    public void setFecha_fin(Date fecha_fin) {
+    public void setFecha_fin(String fecha_fin) {
         this.fecha_fin = fecha_fin;
     }
 

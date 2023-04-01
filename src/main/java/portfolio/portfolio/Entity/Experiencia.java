@@ -22,15 +22,15 @@ public class Experiencia {
     private String nombreE;
     private String descripcionE;
     private String img;
-    private Date fecha_inicio;
-    private Date fecha_fin;
+    private String fecha_inicio;
+    private String fecha_fin;
     private String empleador;
     
     
     public Experiencia() {
     }
 
-    public Experiencia(String nombreE, String descripcionE, String img, Date fecha_inicio, Date fecha_fin, String empleador) {
+    public Experiencia(String nombreE, String descripcionE, String img, String fecha_inicio, String fecha_fin, String empleador) {
         this.id = id;
         this.nombreE = nombreE;
         this.descripcionE = descripcionE;

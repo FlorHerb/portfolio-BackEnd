@@ -66,7 +66,7 @@ public class CProyecto {
         if(sProyecto.existsByNombre(dtoProy.getNombre()))
             return new ResponseEntity(new Mensaje("Ese proyecto ya existe"), HttpStatus.BAD_REQUEST);
         
-        Proyecto proyecto = new Proyecto(dtoProy.getNombre(),dtoProy.getAño(),dtoProy.getImg(),dtoProy.getDescripcion());
+        Proyecto proyecto = new Proyecto(dtoProy.getNombre(),dtoProy.getAnio(),dtoProy.getDescripcion(),dtoProy.getImg());
         sProyecto.save(proyecto);
         
         return new ResponseEntity(new Mensaje("Proyecto agregado"), HttpStatus.OK);
@@ -87,7 +87,7 @@ public class CProyecto {
         
         Proyecto proyecto = sProyecto.getOne(id).get();
         proyecto.setNombre(dtoProy.getNombre());
-        proyecto.setAño(dtoProy.getAño());
+        proyecto.setAnio(dtoProy.getAnio());
         proyecto.setDescripcion(dtoProy.getDescripcion());
         proyecto.setImg(dtoProy.getImg());   
       

@@ -20,10 +20,10 @@ public class Proyecto {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Long id;
+    private int id;
     @NotNull
     private String nombre;
-    private String año;
+    private String anio;
     private String descripcion;
     @NotNull
     @Size(min = 1, max = 300, message = "no cumple con la longitud")
@@ -32,10 +32,12 @@ public class Proyecto {
     public Proyecto(String nombre, String año, String descripcion, String img) {
         this.id = id;
         this.nombre = nombre;
-        this.año = año;
+        this.anio = año;
         this.descripcion = descripcion;
         this.img = img;
     }
+    
+    public Proyecto(){}
 
     
 }
